@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F934B5C92923BD1700B4BBF6 /* VorlesungsCountdown Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F934B5C82923BD1700B4BBF6 /* VorlesungsCountdown Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F934B5CE2923BD1700B4BBF6 /* VorlesungsCountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F934B5CD2923BD1700B4BBF6 /* VorlesungsCountdownApp.swift */; };
+		F934B5D02923BD1700B4BBF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F934B5CF2923BD1700B4BBF6 /* ContentView.swift */; };
+		F934B5D22923BD1800B4BBF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F934B5D12923BD1800B4BBF6 /* Assets.xcassets */; };
+		F934B5D52923BD1800B4BBF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F934B5D42923BD1800B4BBF6 /* Preview Assets.xcassets */; };
+		F934B5DF2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F934B5DE2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppTests.swift */; };
+		F934B5E92923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F934B5E82923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITests.swift */; };
+		F934B5EB2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F934B5EA2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F934B5CA2923BD1700B4BBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F934B5BC2923BD1600B4BBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F934B5C72923BD1700B4BBF6;
+			remoteInfo = "VorlesungsCountdown Watch App";
+		};
+		F934B5DB2923BD1800B4BBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F934B5BC2923BD1600B4BBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F934B5C72923BD1700B4BBF6;
+			remoteInfo = "VorlesungsCountdown Watch App";
+		};
+		F934B5E52923BD1800B4BBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F934B5BC2923BD1600B4BBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F934B5C72923BD1700B4BBF6;
+			remoteInfo = "VorlesungsCountdown Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F934B5F12923BD1800B4BBF6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F934B5C92923BD1700B4BBF6 /* VorlesungsCountdown Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F934B5C22923BD1700B4BBF6 /* VorlesungsCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VorlesungsCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F934B5C82923BD1700B4BBF6 /* VorlesungsCountdown Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VorlesungsCountdown Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F934B5CD2923BD1700B4BBF6 /* VorlesungsCountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorlesungsCountdownApp.swift; sourceTree = "<group>"; };
+		F934B5CF2923BD1700B4BBF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F934B5D12923BD1800B4BBF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F934B5D42923BD1800B4BBF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F934B5DA2923BD1800B4BBF6 /* VorlesungsCountdown Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VorlesungsCountdown Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F934B5DE2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorlesungsCountdown_Watch_AppTests.swift; sourceTree = "<group>"; };
+		F934B5E42923BD1800B4BBF6 /* VorlesungsCountdown Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VorlesungsCountdown Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F934B5E82923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorlesungsCountdown_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		F934B5EA2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorlesungsCountdown_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F934B5C52923BD1700B4BBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F934B5D72923BD1800B4BBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F934B5E12923BD1800B4BBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F934B5BB2923BD1600B4BBF6 = {
+			isa = PBXGroup;
+			children = (
+				F934B5CC2923BD1700B4BBF6 /* VorlesungsCountdown Watch App */,
+				F934B5DD2923BD1800B4BBF6 /* VorlesungsCountdown Watch AppTests */,
+				F934B5E72923BD1800B4BBF6 /* VorlesungsCountdown Watch AppUITests */,
+				F934B5C32923BD1700B4BBF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F934B5C32923BD1700B4BBF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F934B5C22923BD1700B4BBF6 /* VorlesungsCountdown.app */,
+				F934B5C82923BD1700B4BBF6 /* VorlesungsCountdown Watch App.app */,
+				F934B5DA2923BD1800B4BBF6 /* VorlesungsCountdown Watch AppTests.xctest */,
+				F934B5E42923BD1800B4BBF6 /* VorlesungsCountdown Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F934B5CC2923BD1700B4BBF6 /* VorlesungsCountdown Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F934B5CD2923BD1700B4BBF6 /* VorlesungsCountdownApp.swift */,
+				F934B5CF2923BD1700B4BBF6 /* ContentView.swift */,
+				F934B5D12923BD1800B4BBF6 /* Assets.xcassets */,
+				F934B5D32923BD1800B4BBF6 /* Preview Content */,
+			);
+			path = "VorlesungsCountdown Watch App";
+			sourceTree = "<group>";
+		};
+		F934B5D32923BD1800B4BBF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F934B5D42923BD1800B4BBF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F934B5DD2923BD1800B4BBF6 /* VorlesungsCountdown Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F934B5DE2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppTests.swift */,
+			);
+			path = "VorlesungsCountdown Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F934B5E72923BD1800B4BBF6 /* VorlesungsCountdown Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F934B5E82923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITests.swift */,
+				F934B5EA2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "VorlesungsCountdown Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F934B5C12923BD1700B4BBF6 /* VorlesungsCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F934B5F22923BD1800B4BBF6 /* Build configuration list for PBXNativeTarget "VorlesungsCountdown" */;
+			buildPhases = (
+				F934B5C02923BD1700B4BBF6 /* Resources */,
+				F934B5F12923BD1800B4BBF6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F934B5CB2923BD1700B4BBF6 /* PBXTargetDependency */,
+			);
+			name = VorlesungsCountdown;
+			productName = VorlesungsCountdown;
+			productReference = F934B5C22923BD1700B4BBF6 /* VorlesungsCountdown.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F934B5C72923BD1700B4BBF6 /* VorlesungsCountdown Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F934B5EE2923BD1800B4BBF6 /* Build configuration list for PBXNativeTarget "VorlesungsCountdown Watch App" */;
+			buildPhases = (
+				F934B5C42923BD1700B4BBF6 /* Sources */,
+				F934B5C52923BD1700B4BBF6 /* Frameworks */,
+				F934B5C62923BD1700B4BBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VorlesungsCountdown Watch App";
+			productName = "VorlesungsCountdown Watch App";
+			productReference = F934B5C82923BD1700B4BBF6 /* VorlesungsCountdown Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F934B5D92923BD1800B4BBF6 /* VorlesungsCountdown Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F934B5F52923BD1800B4BBF6 /* Build configuration list for PBXNativeTarget "VorlesungsCountdown Watch AppTests" */;
+			buildPhases = (
+				F934B5D62923BD1800B4BBF6 /* Sources */,
+				F934B5D72923BD1800B4BBF6 /* Frameworks */,
+				F934B5D82923BD1800B4BBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F934B5DC2923BD1800B4BBF6 /* PBXTargetDependency */,
+			);
+			name = "VorlesungsCountdown Watch AppTests";
+			productName = "VorlesungsCountdown Watch AppTests";
+			productReference = F934B5DA2923BD1800B4BBF6 /* VorlesungsCountdown Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F934B5E32923BD1800B4BBF6 /* VorlesungsCountdown Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F934B5F82923BD1800B4BBF6 /* Build configuration list for PBXNativeTarget "VorlesungsCountdown Watch AppUITests" */;
+			buildPhases = (
+				F934B5E02923BD1800B4BBF6 /* Sources */,
+				F934B5E12923BD1800B4BBF6 /* Frameworks */,
+				F934B5E22923BD1800B4BBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F934B5E62923BD1800B4BBF6 /* PBXTargetDependency */,
+			);
+			name = "VorlesungsCountdown Watch AppUITests";
+			productName = "VorlesungsCountdown Watch AppUITests";
+			productReference = F934B5E42923BD1800B4BBF6 /* VorlesungsCountdown Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F934B5BC2923BD1600B4BBF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F934B5C12923BD1700B4BBF6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F934B5C72923BD1700B4BBF6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F934B5D92923BD1800B4BBF6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F934B5C72923BD1700B4BBF6;
+					};
+					F934B5E32923BD1800B4BBF6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F934B5C72923BD1700B4BBF6;
+					};
+				};
+			};
+			buildConfigurationList = F934B5BF2923BD1600B4BBF6 /* Build configuration list for PBXProject "VorlesungsCountdown" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F934B5BB2923BD1600B4BBF6;
+			productRefGroup = F934B5C32923BD1700B4BBF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F934B5C12923BD1700B4BBF6 /* VorlesungsCountdown */,
+				F934B5C72923BD1700B4BBF6 /* VorlesungsCountdown Watch App */,
+				F934B5D92923BD1800B4BBF6 /* VorlesungsCountdown Watch AppTests */,
+				F934B5E32923BD1800B4BBF6 /* VorlesungsCountdown Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F934B5C02923BD1700B4BBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F934B5C62923BD1700B4BBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F934B5D52923BD1800B4BBF6 /* Preview Assets.xcassets in Resources */,
+				F934B5D22923BD1800B4BBF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F934B5D82923BD1800B4BBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F934B5E22923BD1800B4BBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F934B5C42923BD1700B4BBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F934B5D02923BD1700B4BBF6 /* ContentView.swift in Sources */,
+				F934B5CE2923BD1700B4BBF6 /* VorlesungsCountdownApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F934B5D62923BD1800B4BBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F934B5DF2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F934B5E02923BD1800B4BBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F934B5EB2923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITestsLaunchTests.swift in Sources */,
+				F934B5E92923BD1800B4BBF6 /* VorlesungsCountdown_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F934B5CB2923BD1700B4BBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F934B5C72923BD1700B4BBF6 /* VorlesungsCountdown Watch App */;
+			targetProxy = F934B5CA2923BD1700B4BBF6 /* PBXContainerItemProxy */;
+		};
+		F934B5DC2923BD1800B4BBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F934B5C72923BD1700B4BBF6 /* VorlesungsCountdown Watch App */;
+			targetProxy = F934B5DB2923BD1800B4BBF6 /* PBXContainerItemProxy */;
+		};
+		F934B5E62923BD1800B4BBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F934B5C72923BD1700B4BBF6 /* VorlesungsCountdown Watch App */;
+			targetProxy = F934B5E52923BD1800B4BBF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F934B5EC2923BD1800B4BBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F934B5ED2923BD1800B4BBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F934B5EF2923BD1800B4BBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VorlesungsCountdown Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = M9WJ8R4A57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VorlesungsCountdown;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lol.kram.VorlesungsCountdown.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		F934B5F02923BD1800B4BBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VorlesungsCountdown Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = M9WJ8R4A57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VorlesungsCountdown;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lol.kram.VorlesungsCountdown.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		F934B5F32923BD1800B4BBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9WJ8R4A57;
+				INFOPLIST_KEY_CFBundleDisplayName = VorlesungsCountdown;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lol.kram.VorlesungsCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F934B5F42923BD1800B4BBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9WJ8R4A57;
+				INFOPLIST_KEY_CFBundleDisplayName = VorlesungsCountdown;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lol.kram.VorlesungsCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F934B5F62923BD1800B4BBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9WJ8R4A57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lol.kram.VorlesungsCountdown-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VorlesungsCountdown Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VorlesungsCountdown Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		F934B5F72923BD1800B4BBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9WJ8R4A57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lol.kram.VorlesungsCountdown-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VorlesungsCountdown Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VorlesungsCountdown Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		F934B5F92923BD1800B4BBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9WJ8R4A57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lol.kram.VorlesungsCountdown-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "VorlesungsCountdown Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		F934B5FA2923BD1800B4BBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9WJ8R4A57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lol.kram.VorlesungsCountdown-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "VorlesungsCountdown Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F934B5BF2923BD1600B4BBF6 /* Build configuration list for PBXProject "VorlesungsCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F934B5EC2923BD1800B4BBF6 /* Debug */,
+				F934B5ED2923BD1800B4BBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F934B5EE2923BD1800B4BBF6 /* Build configuration list for PBXNativeTarget "VorlesungsCountdown Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F934B5EF2923BD1800B4BBF6 /* Debug */,
+				F934B5F02923BD1800B4BBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F934B5F22923BD1800B4BBF6 /* Build configuration list for PBXNativeTarget "VorlesungsCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F934B5F32923BD1800B4BBF6 /* Debug */,
+				F934B5F42923BD1800B4BBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F934B5F52923BD1800B4BBF6 /* Build configuration list for PBXNativeTarget "VorlesungsCountdown Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F934B5F62923BD1800B4BBF6 /* Debug */,
+				F934B5F72923BD1800B4BBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F934B5F82923BD1800B4BBF6 /* Build configuration list for PBXNativeTarget "VorlesungsCountdown Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F934B5F92923BD1800B4BBF6 /* Debug */,
+				F934B5FA2923BD1800B4BBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F934B5BC2923BD1600B4BBF6 /* Project object */;
+}
